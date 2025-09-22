@@ -1,5 +1,8 @@
 object camion {
     const carga = []
+
+    method getCarga() = carga
+
     method peso() = 1000 //en kilogramos
 
     method pesoTotal() = self.peso() + carga.peso()// falta codear 
